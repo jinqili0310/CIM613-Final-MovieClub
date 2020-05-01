@@ -56,7 +56,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="LOG IN" backgroundImage="button"/>
                                 <connections>
-                                    <segue destination="rDq-e2-zbz" kind="presentation" modalPresentationStyle="fullScreen" id="Hy3-eU-lWI"/>
+                                    <segue destination="rDq-e2-zbz" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Hy3-eU-lWI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsz-tp-8aK">
@@ -70,7 +70,7 @@
                                     <color key="titleColor" red="0.30588235294117649" green="0.80000000000000004" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2ci-kf-EuO" kind="presentation" modalPresentationStyle="fullScreen" id="Gnb-7I-aUD"/>
+                                    <segue destination="2ci-kf-EuO" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Gnb-7I-aUD"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not a member yet?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTv-7R-x5K">
@@ -131,7 +131,7 @@
                                 </constraints>
                                 <state key="normal" image="back"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="nMw-tr-gjD"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="nMw-tr-gjD"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="O6C-kL-UuV">
@@ -177,7 +177,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="SIGN UP" backgroundImage="button"/>
                                 <connections>
-                                    <segue destination="rDq-e2-zbz" kind="presentation" modalPresentationStyle="fullScreen" id="Dip-ah-vbo"/>
+                                    <segue destination="rDq-e2-zbz" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Dip-ah-vbo"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By creating an account, you agree to  Movie Club’s Terms and Conditions of Use." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciz-1X-TeR">
@@ -1541,8 +1541,8 @@ Her other cast members gets points for their respective roles, though there is l
         <image name="title2" width="384" height="48"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="4U3-YW-thj"/>
-        <segue reference="6cq-Wt-d1d"/>
-        <segue reference="yyI-o6-Ytf"/>
+        <segue reference="5fF-9E-Ujt"/>
+        <segue reference="zJT-b9-NQd"/>
+        <segue reference="Hy3-eU-lWI"/>
     </inferredMetricsTieBreakers>
 </document>

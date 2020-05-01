@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		C17F09E3245CBA5100C814A2 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F09E2245CBA5100C814A2 /* CommunityViewController.swift */; };
+=======
+>>>>>>> master
 		D86EFD8E245A72F100809496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86EFD8D245A72F100809496 /* AppDelegate.swift */; };
 		D86EFD90245A72F100809496 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86EFD8F245A72F100809496 /* SceneDelegate.swift */; };
 		D86EFD92245A72F100809496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86EFD91245A72F100809496 /* ViewController.swift */; };
@@ -18,7 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		C17F09E2245CBA5100C814A2 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> master
 		D86EFD8A245A72F100809496 /* MovieClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86EFD8D245A72F100809496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D86EFD8F245A72F100809496 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +71,10 @@
 				D86EFD91245A72F100809496 /* ViewController.swift */,
 				D86EFD99245A72F400809496 /* Assets.xcassets */,
 				D86EFDA4245A9B6900809496 /* Main.storyboard */,
+<<<<<<< HEAD
 				C17F09E2245CBA5100C814A2 /* CommunityViewController.swift */,
+=======
+>>>>>>> master
 				D86EFD9B245A72F400809496 /* LaunchScreen.storyboard */,
 				D86EFD9E245A72F400809496 /* Info.plist */,
 				D86EFD96245A72F100809496 /* MovieClub.xcdatamodeld */,
@@ -147,7 +156,10 @@
 				D86EFD98245A72F100809496 /* MovieClub.xcdatamodeld in Sources */,
 				D86EFD92245A72F100809496 /* ViewController.swift in Sources */,
 				D86EFD8E245A72F100809496 /* AppDelegate.swift in Sources */,
+<<<<<<< HEAD
 				C17F09E3245CBA5100C814A2 /* CommunityViewController.swift in Sources */,
+=======
+>>>>>>> master
 				D86EFD90245A72F100809496 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +299,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LY3Q8QW3C2;
 				INFOPLIST_FILE = MovieClub/Info.plist;
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+=======
+>>>>>>> master
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,7 +310,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.MovieClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+<<<<<<< HEAD
 				TARGETED_DEVICE_FAMILY = 1;
+=======
+				TARGETED_DEVICE_FAMILY = "1,2";
+>>>>>>> master
 			};
 			name = Debug;
 		};
@@ -306,7 +325,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LY3Q8QW3C2;
 				INFOPLIST_FILE = MovieClub/Info.plist;
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+=======
+>>>>>>> master
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +336,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.MovieClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+<<<<<<< HEAD
 				TARGETED_DEVICE_FAMILY = 1;
+=======
+				TARGETED_DEVICE_FAMILY = "1,2";
+>>>>>>> master
 			};
 			name = Release;
 		};

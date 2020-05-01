@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+>>>>>>> master
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -56,7 +63,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="LOG IN" backgroundImage="button"/>
                                 <connections>
+<<<<<<< HEAD
                                     <segue destination="rDq-e2-zbz" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Hy3-eU-lWI"/>
+=======
+                                    <segue destination="rDq-e2-zbz" kind="presentation" modalPresentationStyle="fullScreen" id="Hy3-eU-lWI"/>
+>>>>>>> master
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsz-tp-8aK">
@@ -70,7 +81,11 @@
                                     <color key="titleColor" red="0.30588235294117649" green="0.80000000000000004" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+<<<<<<< HEAD
                                     <segue destination="2ci-kf-EuO" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Gnb-7I-aUD"/>
+=======
+                                    <segue destination="2ci-kf-EuO" kind="presentation" modalPresentationStyle="fullScreen" id="Gnb-7I-aUD"/>
+>>>>>>> master
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not a member yet?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTv-7R-x5K">
@@ -131,7 +146,11 @@
                                 </constraints>
                                 <state key="normal" image="back"/>
                                 <connections>
+<<<<<<< HEAD
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="nMw-tr-gjD"/>
+=======
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="nMw-tr-gjD"/>
+>>>>>>> master
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="O6C-kL-UuV">
@@ -177,7 +196,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="SIGN UP" backgroundImage="button"/>
                                 <connections>
+<<<<<<< HEAD
                                     <segue destination="rDq-e2-zbz" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Dip-ah-vbo"/>
+=======
+                                    <segue destination="rDq-e2-zbz" kind="presentation" modalPresentationStyle="fullScreen" id="Dip-ah-vbo"/>
+>>>>>>> master
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By creating an account, you agree to  Movie Club’s Terms and Conditions of Use." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciz-1X-TeR">
@@ -344,7 +367,11 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="6vw-5p-lGs">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="63"/>
                                         <subviews>
+<<<<<<< HEAD
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nve-cb-aHX">
+=======
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aG-M1-NGr">
+>>>>>>> master
                                                 <rect key="frame" x="0.0" y="0.0" width="60" height="50"/>
                                                 <color key="tintColor" red="0.30588235289999999" green="0.80000000000000004" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" image="home"/>
@@ -364,6 +391,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="etB-As-NbO">
                                         <rect key="frame" x="80" y="0.0" width="60" height="63"/>
                                         <subviews>
+<<<<<<< HEAD
                                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ip7-Nx-pgU">
                                                 <rect key="frame" x="0.0" y="0.0" width="60" height="46"/>
                                                 <color key="tintColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -371,6 +399,12 @@
                                                 <connections>
                                                     <segue destination="b8J-Sf-47R" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="zJT-b9-NQd"/>
                                                 </connections>
+=======
+                                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epw-wn-1iz">
+                                                <rect key="frame" x="0.0" y="0.0" width="60" height="46"/>
+                                                <color key="tintColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" image="activities"/>
+>>>>>>> master
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5j-My-Ncn">
                                                 <rect key="frame" x="0.0" y="51" width="60" height="12"/>
@@ -383,6 +417,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="IR3-5V-gxf">
                                         <rect key="frame" x="160" y="0.0" width="60" height="63"/>
                                         <subviews>
+<<<<<<< HEAD
                                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUA-ZC-ANv">
                                                 <rect key="frame" x="0.0" y="0.0" width="60" height="46"/>
                                                 <color key="tintColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -390,6 +425,12 @@
                                                 <connections>
                                                     <segue destination="Bju-om-b3L" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="5fF-9E-Ujt"/>
                                                 </connections>
+=======
+                                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TnE-gR-mTf">
+                                                <rect key="frame" x="0.0" y="0.0" width="60" height="46"/>
+                                                <color key="tintColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" image="communities"/>
+>>>>>>> master
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Community" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWg-xW-CPp">
                                                 <rect key="frame" x="0.0" y="51" width="60" height="12"/>
@@ -402,7 +443,11 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nTx-9S-ZF7">
                                         <rect key="frame" x="240" y="0.0" width="60" height="63"/>
                                         <subviews>
+<<<<<<< HEAD
                                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pWd-dF-VkQ">
+=======
+                                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jW-J8-l8p">
+>>>>>>> master
                                                 <rect key="frame" x="0.0" y="0.0" width="60" height="46"/>
                                                 <color key="tintColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" image="message"/>
@@ -418,7 +463,11 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="oi2-FJ-j6d">
                                         <rect key="frame" x="320" y="0.0" width="60" height="63"/>
                                         <subviews>
+<<<<<<< HEAD
                                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jig-Dv-FAY">
+=======
+                                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRx-TV-bow">
+>>>>>>> master
                                                 <rect key="frame" x="0.0" y="0.0" width="60" height="46"/>
                                                 <color key="tintColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" image="profile"/>
@@ -463,11 +512,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SUQ-Vx-5wh"/>
                     </view>
+<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="bNG-Tc-S0b"/>
+=======
+>>>>>>> master
                     <size key="freeformSize" width="414" height="1020"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jbQ-T0-sZj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="1633" y="138"/>
         </scene>
         <!--View Controller-->
@@ -1510,11 +1563,20 @@ Her other cast members gets points for their respective roles, though there is l
             <point key="canvasLocation" x="3173.913043478261" y="966.96428571428567"/>
         </scene>
     </scenes>
+=======
+            <point key="canvasLocation" x="1605.7971014492755" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Dip-ah-vbo"/>
+    </inferredMetricsTieBreakers>
+>>>>>>> master
     <resources>
         <image name="activities" width="64" height="50"/>
         <image name="back" width="20" height="34"/>
         <image name="bottom" width="750" height="104"/>
         <image name="button" width="560" height="96"/>
+<<<<<<< HEAD
         <image name="chevron.right" catalog="system" width="48" height="64"/>
         <image name="clock" catalog="system" width="64" height="60"/>
         <image name="com_user1" width="600" height="600"/>
@@ -1545,4 +1607,14 @@ Her other cast members gets points for their respective roles, though there is l
         <segue reference="zJT-b9-NQd"/>
         <segue reference="Hy3-eU-lWI"/>
     </inferredMetricsTieBreakers>
+=======
+        <image name="communities" width="50" height="50"/>
+        <image name="home" width="52" height="50"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="message" width="56" height="50"/>
+        <image name="movie1" width="670" height="320"/>
+        <image name="profile" width="46" height="50"/>
+        <image name="title2" width="384" height="48"/>
+    </resources>
+>>>>>>> master
 </document>

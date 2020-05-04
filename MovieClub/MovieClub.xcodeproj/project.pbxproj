@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5E6684245FC6B7000DA5AA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5E6683245FC6B7000DA5AA /* Message.swift */; };
+		3F5E6686245FC715000DA5AA /* MessageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5E6685245FC715000DA5AA /* MessageData.swift */; };
+		3F5E668A245FE382000DA5AA /* Message1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5E6689245FE382000DA5AA /* Message1ViewController.swift */; };
+		3F5E668C245FF506000DA5AA /* Message2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5E668B245FF505000DA5AA /* Message2ViewController.swift */; };
+		3F5E668E245FFF1B000DA5AA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5E668D245FFF1B000DA5AA /* ProfileViewController.swift */; };
+		3F5E669224601008000DA5AA /* posterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5E669124601008000DA5AA /* posterCollectionViewCell.swift */; };
 		C17F09E3245CBA5100C814A2 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F09E2245CBA5100C814A2 /* CommunityViewController.swift */; };
 		D86EFD8E245A72F100809496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86EFD8D245A72F100809496 /* AppDelegate.swift */; };
 		D86EFD90245A72F100809496 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86EFD8F245A72F100809496 /* SceneDelegate.swift */; };
@@ -18,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F5E6683245FC6B7000DA5AA /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		3F5E6685245FC715000DA5AA /* MessageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageData.swift; sourceTree = "<group>"; };
+		3F5E6689245FE382000DA5AA /* Message1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message1ViewController.swift; sourceTree = "<group>"; };
+		3F5E668B245FF505000DA5AA /* Message2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message2ViewController.swift; sourceTree = "<group>"; };
+		3F5E668D245FFF1B000DA5AA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3F5E669124601008000DA5AA /* posterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = posterCollectionViewCell.swift; sourceTree = "<group>"; };
 		C17F09E2245CBA5100C814A2 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		D86EFD8A245A72F100809496 /* MovieClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86EFD8D245A72F100809496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +77,12 @@
 				D86EFD91245A72F100809496 /* ViewController.swift */,
 				D86EFD99245A72F400809496 /* Assets.xcassets */,
 				D86EFDA4245A9B6900809496 /* Main.storyboard */,
+				3F5E668D245FFF1B000DA5AA /* ProfileViewController.swift */,
+				3F5E669124601008000DA5AA /* posterCollectionViewCell.swift */,
+				3F5E6683245FC6B7000DA5AA /* Message.swift */,
+				3F5E6685245FC715000DA5AA /* MessageData.swift */,
+				3F5E6689245FE382000DA5AA /* Message1ViewController.swift */,
+				3F5E668B245FF505000DA5AA /* Message2ViewController.swift */,
 				C17F09E2245CBA5100C814A2 /* CommunityViewController.swift */,
 				D86EFD9B245A72F400809496 /* LaunchScreen.storyboard */,
 				D86EFD9E245A72F400809496 /* Info.plist */,
@@ -146,8 +164,14 @@
 			files = (
 				D86EFD98245A72F100809496 /* MovieClub.xcdatamodeld in Sources */,
 				D86EFD92245A72F100809496 /* ViewController.swift in Sources */,
+				3F5E668E245FFF1B000DA5AA /* ProfileViewController.swift in Sources */,
 				D86EFD8E245A72F100809496 /* AppDelegate.swift in Sources */,
 				C17F09E3245CBA5100C814A2 /* CommunityViewController.swift in Sources */,
+				3F5E669224601008000DA5AA /* posterCollectionViewCell.swift in Sources */,
+				3F5E668A245FE382000DA5AA /* Message1ViewController.swift in Sources */,
+				3F5E6686245FC715000DA5AA /* MessageData.swift in Sources */,
+				3F5E6684245FC6B7000DA5AA /* Message.swift in Sources */,
+				3F5E668C245FF506000DA5AA /* Message2ViewController.swift in Sources */,
 				D86EFD90245A72F100809496 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

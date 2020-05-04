@@ -28,7 +28,9 @@ class ProfileViewController: UIViewController, UICollectionViewDataSource, UICol
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+          return .lightContent
+    }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
 

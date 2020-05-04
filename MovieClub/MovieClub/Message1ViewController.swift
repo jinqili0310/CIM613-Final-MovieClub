@@ -27,6 +27,9 @@ class Message1ViewController: UIViewController {
         // Do any additional setup after loading the view.
         tableView.register(messgeTableViewCell.self, forCellReuseIdentifier: "Cell")
     }
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+          return .lightContent
+    }
 }
 
 extension Message1ViewController: UITableViewDataSource {

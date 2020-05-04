@@ -177,7 +177,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="SIGN UP" backgroundImage="button"/>
                                 <connections>
-                                    <segue destination="rDq-e2-zbz" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Dip-ah-vbo"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="uHK-de-vTg"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By creating an account, you agree to  Movie Club’s Terms and Conditions of Use." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciz-1X-TeR">
@@ -2358,7 +2358,8 @@ Her other cast members gets points for their respective roles, though there is l
         <segue reference="tgK-HL-6Fa"/>
         <segue reference="r2l-5O-dE5"/>
         <segue reference="6hy-Dr-122"/>
-        <segue reference="WbB-2m-Jw2"/>
+        <segue reference="Hy3-eU-lWI"/>
+        <segue reference="uHK-de-vTg"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="activities" width="64" height="50"/>

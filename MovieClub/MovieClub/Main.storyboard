@@ -216,9 +216,8 @@
         <!--Home View Controller-->
         <scene sceneID="sXh-gg-0Uy">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jbQ-T0-sZj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController title="Home View Controller" id="rDq-e2-zbz" customClass="HomeViewController" customModule="MovieClub" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="mEp-Ah-KCQ">
+                    <view key="view" contentMode="scaleToFill" id="mEp-Ah-KCQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1020"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -368,7 +367,6 @@
                                                     <constraint firstItem="hDr-Js-zoi" firstAttribute="top" secondItem="6e9-j5-PkX" secondAttribute="top" id="Mb3-Bl-QqE"/>
                                                     <constraint firstAttribute="trailing" secondItem="hDr-Js-zoi" secondAttribute="trailing" constant="258" id="U6t-22-9cy"/>
                                                     <constraint firstItem="hDr-Js-zoi" firstAttribute="height" secondItem="6e9-j5-PkX" secondAttribute="height" id="eS4-Gm-c7c"/>
-                                                    <constraint firstItem="hDr-Js-zoi" firstAttribute="width" secondItem="6e9-j5-PkX" secondAttribute="width" multiplier="1.0034" id="enP-ti-YDs"/>
                                                     <constraint firstAttribute="height" constant="210" id="xlj-na-UTn"/>
                                                     <constraint firstItem="hDr-Js-zoi" firstAttribute="leading" secondItem="6e9-j5-PkX" secondAttribute="leading" id="yPM-qe-yo1"/>
                                                 </constraints>
@@ -415,7 +413,6 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="918" id="5bE-ff-lsJ"/>
                                     <constraint firstAttribute="width" constant="414" id="CY0-M7-zCq"/>
                                     <constraint firstAttribute="trailing" secondItem="EbC-go-jSt" secondAttribute="trailing" id="Gem-Kr-7jR"/>
                                     <constraint firstAttribute="bottom" secondItem="EbC-go-jSt" secondAttribute="bottom" id="K3C-Uc-GLh"/>
@@ -563,7 +560,6 @@
                             <constraint firstItem="gsD-zJ-gnL" firstAttribute="top" secondItem="s2V-Kj-UXx" secondAttribute="bottom" id="PWK-a5-HUC"/>
                             <constraint firstAttribute="bottom" secondItem="cix-F6-qPv" secondAttribute="bottom" constant="20" id="TLD-Cm-PSd"/>
                             <constraint firstItem="Kw5-ZS-rel" firstAttribute="leading" secondItem="SUQ-Vx-5wh" secondAttribute="leading" id="ZEG-mi-fki"/>
-                            <constraint firstAttribute="bottom" secondItem="Kw5-ZS-rel" secondAttribute="bottom" constant="-4" id="fnT-k6-uCV"/>
                             <constraint firstItem="Kw5-ZS-rel" firstAttribute="top" secondItem="s2V-Kj-UXx" secondAttribute="bottom" id="mOz-Ob-DlT"/>
                             <constraint firstItem="cix-F6-qPv" firstAttribute="centerX" secondItem="mEp-Ah-KCQ" secondAttribute="centerX" id="ocW-8G-oRO"/>
                             <constraint firstItem="s2V-Kj-UXx" firstAttribute="leading" secondItem="SUQ-Vx-5wh" secondAttribute="leading" id="pDb-Nz-UPR"/>
@@ -579,6 +575,7 @@
                         <outlet property="popularStackView" destination="sPX-m2-aD3" id="DxG-eW-rbF"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jbQ-T0-sZj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1631.8840579710147" y="137.94642857142856"/>
         </scene>
